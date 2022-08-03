@@ -25,4 +25,12 @@ console.log("Hello World!")
 const btn = document.getElementById('btnEnviar')
 
 // Atrelando um evento
-// Escutar um evento
+// Escutar um evento e realizar uma ação
+
+btn.addEventListener("click", function(){
+    btn.type = "button"
+    // Recuperar o input nmTask querySelector
+    //              document.querySelector("#nmTaskId")
+    let inputTask = document.querySelectorAll("input[type=text]") 
+    inputTask[0].value = btn.innerHTML
+})
