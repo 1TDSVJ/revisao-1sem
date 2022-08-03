@@ -37,3 +37,16 @@ const btn = document.getElementById('btnEnviar')
 
 // Passar os dados do form para um objeto e imprimí-lo
 
+btn.addEventListener("click", ()=> {
+    let inputTask = document.querySelectorAll("input[type=text]") 
+    
+})
+
+// pessoa = {
+//     nome: 'Rafael',
+//     sobrenome: 'Ramos'
+// };
+
+// for(let chave in pessoa) {
+//     console.log(chave);
+// }
