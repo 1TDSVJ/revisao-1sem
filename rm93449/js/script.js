@@ -33,9 +33,18 @@ function verificacaoNome(nome){
 const btn = document.getElementById("btnEnviar")
 
 //Atrelar um evento
-btn.addEventListener("click", function(){
+// btn.addEventListener("click", function(){
+//     btn.type = "button"
+//     //Recuperar o input nmTask com querySelector
+//     let inputTask = document.querySelectorAll("input[type=text]")
+//     inputTask[0].value = btn.innerHTML
+// })
+
+btn.addEventListener("click", ()=>{
     btn.type = "button"
     //Recuperar o input nmTask com querySelector
     let inputTask = document.querySelectorAll("input[type=text]")
     inputTask[0].value = btn.innerHTML
 })
+
+//PASSE OS DADOS DO FORM PARA UM OBJETO E IMPRIMA
