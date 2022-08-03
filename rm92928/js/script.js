@@ -27,10 +27,13 @@ const btn = document.getElementById('btnEnviar')
 // Atrelando um evento
 // Escutar um evento e realizar uma ação
 
-btn.addEventListener("click", function(){
-    btn.type = "button"
-    // Recuperar o input nmTask querySelector
-    //              document.querySelector("#nmTaskId")
-    let inputTask = document.querySelectorAll("input[type=text]") 
-    inputTask[0].value = btn.innerHTML
-})
+// btn.addEventListener("click", ()=>{
+//     btn.type = "button"
+//     // Recuperar o input nmTask querySelector
+//     //              document.querySelector("#nmTaskId")
+//     let inputTask = document.querySelectorAll("input[type=text]") 
+//     inputTask[0].value = btn.innerHTML
+// })
+
+// Passar os dados do form para um objeto e imprimí-lo
+
